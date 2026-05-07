@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contain">
+  
+    <div id="divme">
+    <form method="POST" action="reset.php" >
+     <fieldset id="set">
+        <p><b>Forgotten your<br> password?</b></p>
+     <label for="username" id="labe">Enter valid Username</label><br>   
+     <div id="conti">
+       <img src="key.jpg" width="20px" height="50px" id="photo">
+       <input type="text" name="Username" id="username1" placeholder="Enter Username">
+     </div id="divme">
+     <div>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label for="fav">Enter Keyword<br>&nbsp;&nbsp; &nbsp; &nbsp;<input type="text" name="keyword" placeholder="KeyWord" id="fav"></label><br>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label for="NewPssword">Enter New Password<br>&nbsp;&nbsp; &nbsp; &nbsp;<input type="password" name="NewPassword" placeholder="New Password" id="Newpassword"></label><br>
+      </div>
+      <button name="reset" id="rest">Reset</button>
+      <button name="cancel" id="canc">Cancel</button>
+     </fieldset>
+    </form>   
+   </div> 
+   
+</body>
+</html>
