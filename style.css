@@ -1,0 +1,85 @@
+body{
+    background-image: url(zz.jpg);
+    overflow: hidden;
+    
+}
+.container{
+    display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    background-color:rgba(255, 166, 0, 0.881);
+    text-align: center;
+    border-radius: 10px;
+}
+#labe{
+    font-size: small;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#conti{
+    display: flex;
+   align-items: center;
+   gap: 0;  
+}
+#username1{
+   border: none ;   
+}
+#photo{   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.861);   
+}
+#contain{
+    background-image: url(zz.jpg);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+p,h4{
+    text-align: center;
+}
+#canc{
+
+    border-radius: 1px;
+    width: 80px; 
+    background-color: orange;
+}
+#rest{
+    border-radius: 1px;
+    width: 70px;
+    background-color: rgba(255, 166, 0,0.922);
+    margin-right: 20px;
+    margin-left: 30px;
+}
+#btn{
+    background-color:rgba(255, 166, 0,0.906);
+}
+#field{
+    background-color:rgba(240, 238, 234, 0.959);
+    border-radius: 10px;
+}
+#set{
+    border-radius: 10px;
+    background-color: rgba(240, 238, 234, 0.959);
+    height: 250px;
+    width:400px;
+}
+form{
+    
+    height:auto ;
+    background-color:rgba(240, 238, 234, 0.959);
+    border:1px solid;
+    border-radius:10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    margin:auto;
+    font-size:12px;
+    margin-bottom: 40px;
+}  
+
