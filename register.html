@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="register.js" defer></script>-->
+</head>
+<body>
+    <a href="index.html" title="Home"><button ><img src="hom.jpeg" alt="icon" width="20" height="20"></button></a>
+   <form method="POST" action="register.php" >
+      <div >     
+        <h4>ZATHU VILLLAGE BANK REGISTRATION</h4></div>
+      <div>
+        <fieldset>        
+       <fieldset> 
+        <legend><strong>Personal Information</strong></legend>
+        <label for="fullname" class="vic">FullName:<input type="text" name="Fname" id="fullname" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="dob">Date Of Birth<input type="date" name="dateofbirth" id="dob"></label>&nbsp;<br>
+        <label for="idNo">ID Number:<input type="text" name="IDnumber" id="idNo" required></label>&nbsp;&nbsp;&nbsp;
+        <label class="vic">Gender:</label>
+        <input type="radio"name="Gender" id="Male" value="Male" required>
+        <label for="Male">Male</label>
+        <input type="radio"name="Gender" id="Female" value="Female">
+        <label for="Female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+       
+
+        
+       </fieldset><br>
+       <fieldset class="zed">
+        <legend><strong>Contact Information</strong></legend>
+        <label for="phonenumber">Phone Number:<input type="number"name="PhoneNumber" id="phonenumber" min="0" placeholder="0### ### ###" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="email">EMail:<input type="email"name="Email" id="email"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+       </fieldset><br>
+       <fieldset class="zed">
+        <legend><strong>LOGIN CREDENTIALS</strong></legend>
+        <label for="username">UserName:<input type="text" name="UserName" id="username" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="password">PassWord:<input type="password" name="PassWord" id="password"  required minlength="10"></label><br><br>
+        <label for="confirm">Confirm PassWord:<input type="password" name="PassWordConfirm" id="confirm"  required></label><br><br>
+        <label for="keyword">What is your favourite word?<input type="text" name="keyword" id="keyword"></label>
+        
+       </fieldset>
+       </fieldset>
+       <input type="submit" name="save" value="Register" id="save" class="yoo">
+       <input type="reset" name="clear" value="Clear" id="oka" class="yoo">
+       </div>
+   </form> 
+   
+</body>
+</html>
